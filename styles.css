@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .container1{
     display:flex;
 }
@@ -65,7 +69,7 @@
 .BOX3{
     flex:2;
     background-color: #333;
-    height:200px;
+    height:202px;
 }
 .BOX3 h4{
     position:relative;
@@ -189,7 +193,7 @@ left:0px;
 }
 .right-side{
     background-image:radial-gradient(320px 320px at center 220px,#9932CC 50%,rgba(147,112,219) 50%);
-    height:650px;
+    height:652px;
     flex:1;
 }
 .left-side{
