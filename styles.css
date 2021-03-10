@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container1{
+    display:flex;
+}
+.container2{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+.container3{
+    display:flex;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+.bottom{
+    display:flex;
+    justify-content: space-around;
+}
+.box-1{
+    flex:1;
+    /*line-height: 2em;*/
+}
+.box-2{
+    flex:1;
+}
+.box-3{
+    flex:2;
+    text-align:center;
+    background-color: rgba(250, 243, 242,0.5);
+    padding:0;
+    margin:0;
+}
+.BOX1{
+    flex:1;
+    background-image:radial-gradient(circle,#0EBFE9 50%,#11D6FF 50%);
+    height:33vh;
+}
+.BOX2{
+    flex:1;
+}
+.BOX2 h4{
+    font-family: 'Shippori Mincho B1', serif;
+    text-align:center;
+    font-size:1.2em;
+    font-weight:lighter;
+}
+.BOX1 img{
+    position:relative;
+    left:42%;
+    top:30%;
+}
+.BOX1 h4{
+    position:relative;
+    top:30%;
+    color:white;
+    font-size:1.3em;
+    font-family:'Shippori Mincho B1', serif;
+    font-weight:lighter;
+}
+.BOX3{
+    flex:2;
+    background-color: #333;
+    height:200px;
+}
+.BOX3 h4{
+    position:relative;
+    right:20%;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size:1.2em;
+    font-weight:lighter;
+    color:white;
+}
+.BOX3 img{
+position:relative;
+left:20%;
+top:20px;
+}
+.BOX3 h4{
+    position:relative;
+    top:35px;
+}
+.sub-BOX3{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.sub-box-3{
+    position:relative;
+    top:15%;
+    line-height:1.5em;
+}
+.sub-box-3 img{
+    position:relative;
+    top:30%;
+}
+.box-1 p,div,span{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:auto;
+}
+.sub-box-1 p{
+    position:relative;
+    left:18%;
+    line-height:1.5em;
+    font-weight:500;
+}
+.sub-box-1 h6{
+    position:relative;
+    left:18%;
+}
+.sub-box-1 span{
+    position:relative;
+    left:18%;
+    line-height:10px
+}
+.sub-box-2{
+    position:relative;
+    left:18%;
+}
+#img{
+    position:relative;
+    left:34%;
+    top:-60px;
+}
+.text{
+    font-size:0.8em;
+    font-weight:bold;
+    color:white;
+    position:absolute;
+    left:31%;
+    top:95px;
+    text-align:center;
+}
+.btn{
+    border-radius:10px;
+    height:40px;
+    width:100px;
+    background-color:#45CB4D;
+    color:white;
+    font-weight:bold;
+    position:relative;
+    left:35%;
+}
+.btn:hover{
+    background-color:white;
+    color:green;
+    transition:1s;
+    border-radius:15px;
+}
+.keyboard{
+    flex:1;
+    background-color:#E26313;
+    height:308px;
+}
+.keyboard img{
+    position:relative;
+    top:15%;
+    left:12%;
+}
+.keyboard h5{
+    position:relative;
+    top:15%;
+}
+.computer{
+    flex:2;
+    display:flex;
+    justify-content:space-between;
+    flex-basis:200px;
+}
+.keyboard a{
+    text-decoration:none;
+    color:yellow;
+    font-size:0.7em;
+    position:relative;
+    top:15%;
+    left:40%;
+}
+.computer-heading{
+    position:relative;
+    left:20%;
+}
+.para{
+position:relative;
+left:0px;
+}
+.right-side{
+    background-image:radial-gradient(320px 320px at center 220px,#9932CC 50%,rgba(147,112,219) 50%);
+    height:650px;
+    flex:1;
+}
+.left-side{
+    flex:3;
+}
+.right-side img,h2,p,button{
+    position:relative;
+    top:20%;
+}
+.right-side button{
+    background-color: #F6BE00;
+    width:100px;
+    height:50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position:relative;
+    left:35%;
+}
+.right-side button:hover{
+    background-color: #9370DB;
+    color:#F6BE00;
+    transition:1s;
+}
+.remote{
+    flex:1;
+}
+.laptop{
+    flex:2;
+   /* background-color:rgba(51,201,193,0.8);*/
+   background-color: rgba(44, 143, 148,0.8);
+    height:325px;
+}
+.laptop img{
+    position:relative;
+    left:30%;
+}
+.laptop h3{
+    position:relative;
+    left:10px;
+}
+.laptop button{
+    background-color: #E26313;
+    width:100px;
+    height:30px;
+    border-radius:10px;
+    border: 1px solid black;
+    color:white;
+    font-size:0.8em;
+    font-weight:bold;
+    position:relative;
+    top:5px;
+    left:10px;
+}
+.laptop button:hover{
+    background-color:rgba(44, 143, 148,0.8) ;
+    color:#F6BE00;
+    transition:1s;
+    border-radius:15px;
+}
+.remote img,h3{
+    position:relative;
+    left:20%;
+}
+.remote h6{
+    position:relative;
+    left:37%;
+}
+.right-side img,p{
+    position:relative;
+    left:12%;
+}
+.laptop h5{
+    position:relative;
+    left:40%;
+    bottom:43%;
+    color:white;
+}
+.Download h6{
+    position:relative;
+    left:30px;
+}
